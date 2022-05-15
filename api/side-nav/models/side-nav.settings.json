@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "side_navs",
+  "info": {
+    "name": "Side Nav",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "side_navs",
+      "dominant": true
+    }
+  }
+}

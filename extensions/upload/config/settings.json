@@ -1,0 +1,8 @@
+{
+    "provider" : "cloudinary",
+    "providerOptions" : {
+        "cloud_name": "health-first-medi-corp",
+        "api_key": "358976777694284",
+        "api_secret": "DRqFJbaElWzBHtGSIWOH93-iHIE"
+    }
+}
